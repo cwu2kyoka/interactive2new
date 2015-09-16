@@ -1,10 +1,12 @@
-#container {
+body{background-color: #FFCBA4;}
+.container {
 	width: 1200px;
-	padding: 0px;
+	padding: 124px;
+	text-align: center;
 	margin: 0 auto;
 	margin-top: 70px;
 	margin-bottom: 70px;
-	background-color: #FFF;
+	background-color: #FFF8dc;
 	border: solid #000000 2px;
 }
 title {
@@ -15,4 +17,46 @@ title {
 	padding-bottom: 25px;
 	color: #acd1b2;
 }
+h1{font-family: Verdana,Serif;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	font-size: 88px;
+	padding-bottom: 25px;
+	color: #acd1b2;}
+
+ul {list-style-type: none;}
+li{font-family: Helvetica,Arial, Serif;
+color: #806517;
+font-weight: 30px;
+font-size: 23px;
+margin-top: 20px;
+text-align: center;}
+
+#navigation a {
+	text-decoration:none; /* gets rid of the underline */
+	font-family: Helvetica, Arial, Serif; 
+	font-size:18px;
+	padding:10px 15px 10px 15px;
+	line-height:none;
+	color: #493D26;
+	margin: 0 auto;
+	display:inline-block;
+	-webkit-transition: all .75s ease-out;
+	-moz-transition: all .75s ease-out;
+	-o-transition: all .75s ease-out;
+	transition: all .75s ease-out;
+}
+
+#navigation a:hover {
+	background-color: #FCE4B5;
+	color:#FD3538;
+
+text-align: {center};
+}
+
+
+
+
+
 
