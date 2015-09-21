@@ -1,6 +1,6 @@
 body{background-color: #FFCBA4;}
 .container {
-	width: 1000px;
+	width: 700px;
 	padding: 124px;
 	text-align: center;
 	margin: 0 auto;
@@ -16,6 +16,7 @@ title {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	color: #acd1b2;
+	font-size: 20px;
 }
 h1{font-family: Verdana,Serif;
 	font-weight: bold;
@@ -23,7 +24,8 @@ h1{font-family: Verdana,Serif;
 	padding-top: 25px;
 	font-size: 88px;
 	padding-bottom: 25px;
-	color: #acd1b2;}
+	color: #acd1b2;
+font-size: 40px;}
 
 ul {list-style-type: none;}
 li{font-family: Helvetica,Arial, Serif;
