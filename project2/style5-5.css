@@ -1,0 +1,9 @@
+body {color:#FFCBA4;
+background-color: #151B54; }
+
+#container {weight:500px;
+text-align: center;
+border: 5px red;
+letter-spacing: 7px;
+line-height: 30px;
+}
