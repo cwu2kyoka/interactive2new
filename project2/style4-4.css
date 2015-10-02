@@ -1,0 +1,35 @@
+
+body {position:relative;}
+
+#pp {width: 200px;
+top:40px;
+text-align: center;
+margin-left: 200px;
+}
+
+#p1 {width:200px;
+margin-left: 30px;
+font-weight: 300;
+font-family:serif;
+line-height: 300px;
+}
+
+#p2 {width:200px;
+margin-left: 30px;
+font-weight: 500;
+font-family:cursive;
+line-height: 300px; 
+}
+
+#p3 {width:200px;
+margin-left: 30px;
+font-weight: 700;
+font-family: sans-serif;
+line-height: 300px;
+}
+
+#p4 {width:200px;
+margin-left: 30px;
+font-weight: 900;
+line-height: 300px;
+}

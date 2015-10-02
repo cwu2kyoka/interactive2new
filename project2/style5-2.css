@@ -1,0 +1,27 @@
+p:first-child {
+    font-family: Cursive;
+}
+
+p:nth-child(2) {
+    font-family:Tahoma;
+}
+
+p:nth-child(3) {
+    color: #cc0000;
+    background-color: yellow;
+}
+
+p:nth-child(4) {
+    color: #00ff00;
+}
+p:nth-child(5) {
+    font-size:22px;
+    background-color: yellow;
+}
+p:nth-child(6) {
+    font-size:28px;
+}
+
+p:nth-child(7) {
+    font-size:30px;
+}
