@@ -1,10 +1,31 @@
 
 #container{
-	border: 15px green solid;
+	border: 15px #98FF98 solid;
 	width: 800px;
 	margin:0 auto;
 	padding: 10px;
 }
 
-body{text-align: center;}
+body{text-align: center;
+	color:#B5EAAA;
+background-color: #151B54;}
 li {text-decoration: none;}
+
+#navigation a {
+	text-decoration:none; /* gets rid of the underline */
+	font-family: Helvetica, Arial, Serif; 
+	font-size:18px;
+	padding:10px 15px 10px 15px;
+	line-height:none;
+	color: #348781;
+	margin: 0 auto;
+	display:inline-block;
+	-webkit-transition: all .75s ease-out;
+	-moz-transition: all .75s ease-out;
+	-o-transition: all .75s ease-out;
+	transition: all .75s ease-out;
+}
+
+#navigation a:hover {
+	background-color: #CCFC5D;
+	color:#3EA055;
