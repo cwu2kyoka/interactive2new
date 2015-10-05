@@ -17,3 +17,6 @@ margin-left: 120px;
 #p4 {width:60px;
 margin-left: 200px;
 }
+
+h3 {position: fixed;
+font-size: 30px;}

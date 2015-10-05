@@ -4,21 +4,28 @@ body {position:relative;}
 
 #p1 {width:60px;
 margin-left: 30px;
+
 }
 
-#p2 {width:60px;
+#p2 {width:100px;
 float:left;
+
 }
 
-#p3 {width:60px;
+#p3 {width:100px;
 margin-left: 120px;
+
 }
 
-#p4 {width:60px;
+#p4 {width:100px;
 float:left;
+
 }
 
 .border {border:2px solid red;
 width: 100px;}
 
 .name {margin-bottom: 20px;}
+
+h3{position: fixed;
+margin-left: 200px;}
