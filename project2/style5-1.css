@@ -48,5 +48,30 @@ text-align: center;
 }
 
 
+.ani {
+    width: 300px;
+    height: 350px;
+    background-color: green;
+    border-radius: 5px;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 10s;
+    
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {background-color: green;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example 
+    from {background-color: green;}
+    to {background-color: yellow;}
+}
+
+
 
 

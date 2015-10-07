@@ -1,6 +1,8 @@
 p:first-child {
     font-family: Cursive;
-}
+    }
+    
+
 
 p:nth-child(2) {
     font-family:Tahoma;
@@ -24,4 +26,37 @@ p:nth-child(6) {
 
 p:nth-child(7) {
     font-size:30px;
-}
+    }
+
+h2  {
+      -moz-animation-duration: 9s;
+      -webkit-animation-duration: 9s;
+      -moz-animation-name: slidein;
+      -webkit-animation-name: slidein;
+    }
+    
+    @-moz-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:100%;
+ 
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+      }
+    }
+    
+    @-webkit-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:300%;
+        color:green;
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+      }
+    
