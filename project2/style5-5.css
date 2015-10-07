@@ -7,3 +7,25 @@ border: 5px red;
 letter-spacing: 7px;
 line-height: 30px;
 }
+
+
+.animate {
+ 
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 10s;
+    
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {background-color: #151B54;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example 
+    from {background-color: #151B54;}
+    to {background-color: yellow;}
+}
