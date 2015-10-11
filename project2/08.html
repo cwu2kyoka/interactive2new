@@ -2,11 +2,55 @@
 <html>
 
 <head>
-  <title>Messy Room 1-3</title>
+  <title>Messy Room 2-3</title>
 </head>
 <style>
 .text{color: green}
+#circle {
+	width: 300px;
+	height: 300px;
+	background: #9DC209;
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px;
+	margin-left: 90px;
+	margin-top: 150px;
+}
 
+.circle-red {position: relative; 
+	display: block; 
+	width: 20px; 
+	height: 260px;
+margin-left: 120px;}
+
+#navigation {
+	position: static !important;
+}
+
+#navigation a {
+	text-decoration:none; /* gets rid of the underline */
+	font-family: Helvetica, Arial, Serif; 
+	padding:10px 10px 10px 10px;
+	line-height:none;
+	color: #000080;
+	margin: 0 auto;
+	display:inline-block;
+	-webkit-transition: all .75s ease-out;
+	-moz-transition: all .75s ease-out;
+	-o-tansition: all .75s ease-out;
+	transition: all .75s ease-out;
+}
+
+#navigation a:hover {
+	background-color: #FCE4B5;
+	color:#FD3538;
+
+text-align: {center};
+}
+ul {list-style-type: none;
+}
+
+.next{color: red;}
 
 </style>
 
@@ -33,7 +77,59 @@ Donald or Robert or Willie or Huh? You say it's mine? Oh, dear,I knew it looked 
   
 
 
+ <div id="circle">
+
+  
  
+<ul class="circle-red">
+  <ul id="navigation">
+  <li><a href="01.html">1</a></li>
+  <li><a href="02.html">2</a></li>
+  <li><a href="03.html">3</a></li>
+  <li><a href="04.html">4</a></li>
+  <li><a href="05.html">5</a></li>
+  <li><a href="06.html">6</a></li>
+  <li><a href="07.html">7</a></li>
+  <li><a href="08.html">8</a></li>
+  <li><a href="09.html"><div class="next">9</div></a></li>
+  <li><a href="10.html">10</a></li>
+  <li><a href="11.html">11</a></li>
+  <li><a href="12.html">12</a></li>
+  <li><a href="13.html">13</a></li>
+  <li><a href="14.html">14</a></li>
+  <li><a href="15.html">15</a></li>
+  <li><a href="16.html">16</a></li>
+  <li><a href="17.html">17</a></li>
+  <li><a href="18.html">18</a></li>
+  <li><a href="19.html">19</a></li>
+  <li><a href="20.html">20</a></li>
+  <li><a href="21.html">21</a></li>
+  <li><a href="22.html">22</a></li>
+  <li><a href="23.html">23</a></li>
+  <li><a href="24.html">24</a></li>
+  <li><a href="25.html">25</a></li>
+</ul> </ul>
+</p>
+ 
+</div>
+</div>
+
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="lib/js/libs/jquery-1.4.2.min.js"%3E%3C/script%3E'))</script>
+  
+  
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="extremes.js"></script>
+  <!-- end concatenated and minified scripts-->
+  
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('#navigation').extremes({
+      diameter: 120
+    });
+  })
+  </script>
 
   	
 </body>

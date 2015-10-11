@@ -29,3 +29,50 @@ width: 100px;}
 
 h3{position: fixed;
 margin-left: 200px;}
+
+#circle {
+	width: 300px;
+	height: 300px;
+	background: #FFCBA4;
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px;
+	margin-left: 90px;
+	margin-top: 150px;
+
+}
+
+.circle-red {position: relative; 
+	display: block; 
+	width: 20px; 
+	height: 260px;
+margin-left: 120px;}
+
+#navigation {
+	position: static !important;
+}
+
+#navigation a {
+	text-decoration:none; /* gets rid of the underline */
+	font-family: Helvetica, Arial, Serif; 
+	padding:10px 10px 10px 10px;
+	line-height:none;
+	color: #CF462C;
+	margin: 0 auto;
+	display:inline-block;
+	-webkit-transition: all .75s ease-out;
+	-moz-transition: all .75s ease-out;
+	-o-tansition: all .75s ease-out;
+	transition: all .75s ease-out;
+}
+
+#navigation a:hover {
+	background-color: #FCE4B5;
+	color:#FD3538;
+
+text-align: {center};
+}
+ul {list-style-type: none;
+}
+
+.next{color: blue;}
