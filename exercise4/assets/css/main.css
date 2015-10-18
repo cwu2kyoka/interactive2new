@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+
+.canvas.red { background: #F04722;}
+
+.object {position: absolute;
+ }
+
+/* Sphrer */
+
+.sphere {background-color: white;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	right:195px;
+bottom: 150px;
+}
+
+
+.pumpkin{ background: orange;
+	width: 150px;
+	height:150px;
+	border-radius: 50%;
+	bottom: 150px;
+	left:564px;
+}
+
+.vase-container {background: none;
+width:100px;
+height: 25px;
+bottom: 200px;
+left: 170px;
+
+}
+
+.vase{ width:100px;
+height:250px;
+background: white;
+opacity:0.5;
+bottom: -52px;
+left:-30px;}
+
+
+.vase-bottom{width:100px;
+height:23px;
+border-radius: 50%;
+bottom:-12px;
+background-color:white;}
+
+.vase-top {width:100px;
+height:25px;
+border-radius: 50px;
+top: -12px;
+background: white}
+
+.stem{background: green;
+width:10px;
+height: 371px;
+top:-288px;
+left:-21px;
+}
+
+.petal {background: indigo;
+width:10px;
+height:40px;
+-ms-transform: rotate(7deg); /* IE 9 */
+-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+transform: rotate(7deg);
+border-radius: 50%;
+top: -320px;
+left:-20px;
+}
+
+object { position:absolute;}
+
+div {display: block;}
+
+.flower.one {left:20px;}
+.flower.two {left:40px;}
+
+.flower.three {left:60px;}

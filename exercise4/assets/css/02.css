@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+
+.canvas.red { background: #9FF1DD;}
+
+.object {position: absolute;
+ }
+
+
+/* Sphrer */
+
+.sphere {background-color: white;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	right:195px;
+bottom: 150px;
+}
+
+
+.pumpkin{ background: orange;
+	width: 150px;
+	height:150px;
+	border-radius: 50%;
+	bottom: 150px;
+	left:328px;
+
+}
+
+.banana {
+display: block;
+position: absolute;
+top: 81px;
+left: 68px;
+width: 175px;
+height: 33px;
+background: #FFDC02;
+border: 1px solid #110b00;
+-webkit-border-radius: 50% 50% 25% 25%/79% 90% 9% 10%;
+-moz-border-radius: 50% 50% 25% 25%/79% 90% 9% 10%;
+border-radius: 50% 50% 25% 25%/79% 90% 9% 10%;
+top:320px;}
+
+.banana.one{
+display: block;
+position: absolute;
+top: 81px;
+left: 68px;
+width: 175px;
+height: 33px;
+background: #FFDC02;
+border: 1px solid #110b00;
+-webkit-border-radius: 50% 50% 25% 25%/79% 90% 9% 10%;
+-moz-border-radius: 50% 50% 25% 25%/79% 90% 9% 10%;
+border-radius: 50% 50% 25% 25%/79% 90% 9% 10%;
+ms-transform: rotate(7deg); /* IE 9 */
+-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+transform: rotate(7deg);
+top:335px;
+}
+
+.banana.two {
+display: block;
+position: absolute;
+top: 81px;
+left: 68px;
+width: 175px;
+height: 33px;
+background: #FFDC02;
+border: 1px solid #110b00;
+-webkit-border-radius: 50% 50% 25% 25%/79% 90% 9% 10%;
+-moz-border-radius: 50% 50% 25% 25%/79% 90% 9% 10%;
+border-radius: 50% 50% 25% 25%/79% 90% 9% 10%;
+ms-transform: rotate(10deg); /* IE 9 */
+-webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+transform: rotate(10deg);
+top:351px;}
+
+
+.tv {
+  position: relative;
+  width: 130px;
+  height: 200px;
+  margin: 20px 0;
+  background: #DFEFF3;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+  left:500px;
+  border: solid black;
+  top:250px;
+}
+.tv:before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius:72% / 64%;
+}
+
+
+
+

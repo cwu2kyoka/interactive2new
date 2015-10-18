@@ -1,4 +1,4 @@
-body {background-color: #9F000F;}
+body {background-color: #FFBB21;}
 
 #container {width: 800px;
 	height: 800px;
@@ -9,7 +9,7 @@ text-align: center; }
 #circle {
 	width: 420px;
 	height: 420px;
-	background: #728c00;
+	background: white;
 	-moz-border-radius: 270px;
 	-webkit-border-radius: 270px;
 	border-radius: 270px;
@@ -17,9 +17,12 @@ text-align: center; }
 	margin-top: 100px;
 }
 
+p { color: yellow;
+font-size: 9pt;}
+
 ul {list-style-type: none;
 }
-h1{color: #F3E5AB;
+h1{color: #F87271;
 margin-left: 46px;
 font-size: 50px;}
 
@@ -40,7 +43,8 @@ margin-left: 120px;}
 	font-family: Helvetica, Arial, Serif; 
 	padding:10px 10px 10px 10px;
 	line-height:none;
-	color: #FFFF00;
+	color: black;
+	font-family: Avenir;
 	margin: 0 auto;
 	display:inline-block;
 	-webkit-transition: all .75s ease-out;
@@ -56,6 +60,30 @@ margin-left: 120px;}
 text-align: {center};
 }
 
+#navigation a.one:hover {
+	background: #ADDFFF;
+	color: white;
+}
+
+#navigation a.two:hover {
+	background:#9DC209 ;
+	color: white;
+}
+
+#navigation a.three:hover {
+	background: #FFCBA4;
+	color: white;
+}
+
+#navigation a.four:hover {
+	background: #FAAFBA;
+	color: white;
+}
+
+#navigation a.five:hover {
+	background: orange;
+	color: white;
+}
 
 
 
