@@ -1,0 +1,156 @@
+.letter {
+
+display: inline-block;
+float: left;
+margin-right: 20px;
+}
+
+.a{
+height: 282px;
+width:250px;
+position:relative;
+background-color: yellow;}
+
+.a .circle {
+	 position: absolute;
+    right: 70px;
+    bottom: 2px;
+    width: 177px;
+    height: 177px;
+    border-radius: 50%;
+    background: black;
+}
+
+.a .right {position: absolute;
+    left: 124px;
+    top: 81px;
+    height: 203px;
+    width: 82px;
+    border-radius: 50%;
+    background: black;}
+
+
+ .a .circle-inside {position: absolute;
+    bottom: 64px;
+    right: 132px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;}
+
+ .a .reflec {  position: absolute;
+    right: 116px;
+    top: 117px;
+    width: 37px;
+    height: 18px;
+    border-radius: 50%;
+    background: white;
+-ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: rotate(25deg);}
+
+
+.oval {
+	width: 100px;
+	height: 200px;
+	background: red;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+
+.circle.right {top:8px; left:2px;}
+.oval.two {bottom:0; left:0;}
+
+
+.b {
+    position: relative;
+    height: 282px;
+    width: 250px;
+    background-color: yellow;
+}
+
+.b .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 282px;
+    width: 82px;
+    border-radius: 50%;
+    background: black;
+}
+
+.b .circle {
+    position: absolute;
+    right: 58px;
+    bottom: 2px;
+    width: 177px;
+    height: 177px;
+    border-radius: 50%;
+    background: black;
+}
+
+.b .circle-inside {
+    position: absolute;
+    bottom: 69px;
+    right: 114px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+}
+
+.b .reflec {  position: absolute;
+    right: 81px;
+    bottom: 136px;
+    width: 37px;
+    height: 18px;
+    border-radius: 50%;
+    background: white;
+-ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: rotate(40deg);}
+
+.c {
+    position: relative;
+    height: 282px;
+    width: 250px;
+    background-color: yellow;
+}
+
+
+.c .circle {
+     position: absolute;
+    right: 52px;
+    bottom: 2px;
+    width: 177px;
+    height: 216px;
+    border-radius: 50%;
+    background: black;
+}
+
+.c .circle-inside {
+    position: absolute;
+    bottom: 79px;
+    right: 109px;
+    width: 58px;
+    height: 59px;
+    border-radius: 50%;
+    background: white;
+}
+
+.c .circle-open { position: absolute;
+    bottom: 69px;
+    right: 25px;
+    width: 112px;
+    height: 77px;
+    border-radius: 50%;
+    background: white;}
+
+
+
+
+
+
+
