@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+<style>
+
+body{
+	background-color:#FFE5B4 !important;
+}
+
+#simple_sketch {
+  background: white;
+  border-radius: 50%;
+}
+
+</style>
+  <link type="text/css" rel="stylesheet" href="p4.css"/>
+  <title>Colored Bubble Tea</title> 
+</head>
+
+<body>
+ <div id ="container2">
+ 	<div class="welcome"> Colored Bubble Tea</div>
+<h1>ORDER</h1>
+
+<canvas id="simple_sketch" width="800" height="800"></canvas>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/sketch.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+    $('#simple_sketch').sketch();
+  });
+</script>
+
+  </body>
+
+</html>

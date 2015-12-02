@@ -28,13 +28,26 @@ margin-left: 550px
 
 .aboutus{ font-size:52px;
 	margin-top:30px;
-color: white;}
+color: black;}
 
 .about{width:500px;
-margin-left: 51px;
+margin-left: 293px;
+margin-top: 69px;
+line-height: 2;
+color: black;
+text-align: left;}
+
+
+.bb{ font-size:52px;
+	margin-top:100px;
+color: black;}
+
+.aboutbb{ width:500px;
+margin-left: 290px;
 margin-top: 66px;
 line-height: 2;
-color: white}
+color: black;
+text-align: left;}
 
 .menuabout{width:530px;
 margin-left: 129px;
@@ -121,6 +134,24 @@ line-height:27px;
 font-size: 91px;
 position: absolute;
 z-index: 1;}
+
+.abimg1{position: absolute;
+z-index: 1;
+top:179px;
+margin-left:-65px;
+position: absolute;}
+
+.abimg2{position: absolute;
+z-index: 1;
+top:653px;
+margin-left:-15px;
+position: absolute;}
+
+.abimg3{position: absolute;
+z-index: 1;
+top:867px;
+margin-left:-15px;
+position: absolute;}
 
 
 .img1 {
@@ -256,8 +287,8 @@ bottom:189px;}
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 position: absolute;
-margin-left:453px;
-bottom:124px;}
+margin-left:489px;
+bottom:259px;}
 
 .pearl9{width: 50px;
 	height: 50px;
@@ -472,30 +503,72 @@ bottom:216px;
 	background-color:#4CC7E4;
 }
 
-.aboutback {
-	background-color:#FFE5B4;
+
+.aboButton {
+	background-color:black;
 	-moz-border-radius:42px;
 	-webkit-border-radius:42px;
 	border-radius:42px;
 	display:inline-block;
 	cursor:pointer;
-	color:black;
-	font-family:Arial;
+	color:white;
 	font-size:17px;
-	padding:23px 12px;
+	padding:26px 9px;
 	text-decoration:none;
 	position: absolute;
-margin-left:670px;
-bottom:70px;
+margin-left:529px;
+bottom:572px;
 }
-
-.aboutback:hover {
-	background-color:#52D017;
+.aboButton:hover {
+	background-color:#F75D59;
 }
-/*.aboutback:active {
+/*.myButton:active {
 	position:relative;
 	top:1px;
 }*/
+
+.aboButton2 {
+	background-color:black;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:17px;
+	padding:26px 9px;
+	text-decoration:none;
+	position: absolute;
+margin-left:530px;
+bottom:472px;
+}
+.aboButton2:hover {
+	background-color:#52D017;
+
+}
+
+.aboButton3 {
+	background-color:black;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:17px;
+	padding:29px 9px;
+	text-decoration:none;
+	position: absolute;
+     margin-left:525px;
+      bottom:368px;
+                   }
+
+.aboButton3:hover {
+	background-color:#4CC7E4;
+}
+
 
 .menubutton {
 	background-color:black;
@@ -552,8 +625,8 @@ bottom:277px;
 	padding:23px 12px;
 	text-decoration:none;
 	position: absolute;
-margin-left:462px;
-bottom:192px;
+margin-left:152px;
+bottom:105px;
 }
 
 .menubutton3:hover {
