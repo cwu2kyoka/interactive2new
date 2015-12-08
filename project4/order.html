@@ -16,15 +16,57 @@ body{
 
 </style>
   <link type="text/css" rel="stylesheet" href="p4.css"/>
-  <title>Colored Bubble Tea</title> 
+  <title>ChaWang Bubble Tea</title> 
 </head>
+
 
 <body>
  <div id ="container2">
- 	<div class="welcome"> Colored Bubble Tea</div>
+ 	<div class="welcome"> Chawang Bubble Tea</div>
 <h1>ORDER</h1>
 
-<canvas id="simple_sketch" width="800" height="800"></canvas>
+
+<p> Choose Your Milk Tea Flavor</p>
+
+<!-- <div class="milktea1"> </div>
+<div class="milktea2"> </div>
+<div class="milktea3"> </div>
+<div class="milktea4"> </div>
+<div class="milktea5"> </div> -->
+
+<div id="flavors">
+
+<div>
+  <input type="radio" id="radio01" name="radio" />
+  <label for="radio01"><span></span>TARO</label>
+</div>
+
+<div>
+ <input type="radio" id="radio02" name="radio" />
+ <label for="radio02"><span></span>BANANA</label>
+</div>
+
+<div>
+ <input type="radio" id="radio03" name="radio" />
+ <label for="radio03"><span></span>STRAWBERRY</label>
+</div>
+
+<div>
+ <input type="radio" id="radio04" name="radio" />
+ <label for="radio04"><span></span>COFFEE</label>
+</div>
+
+<div>
+ <input type="radio" id="radio05" name="radio" />
+ <label for="radio05"><span></span>GREEN TEA</label>
+</div>
+
+</div>
+
+<div class="design">Design your <br>own Bubble !</br></div>
+<div class="design2"><p> Draw a shape of your bubble, enjoy drinking with your custom bubble tea!</p> <p>Note: Please keeps as simple as you can, more than one design will charge 1 $ for each drawing. </p></div>
+
+<canvas id="simple_sketch" width="800" height="800" margin-top="50px"></canvas>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/sketch.min.js"></script>
@@ -33,6 +75,26 @@ body{
     $('#simple_sketch').sketch();
   });
 </script>
+
+<form>
+Your name:<br>
+<input type="text" name="username">
+<br>
+</form>
+<form>
+Number:<br>
+<input type="text" name="psw">
+<br>
+</form>
+<form>
+Address:<br>
+<input type="text" name="username">
+<br>
+</form>
+
+<a href="sent.html" class="orderButton">SENT</a>
+
+
 
   </body>
 
