@@ -171,7 +171,9 @@ margin-left: 40px;}
 input{width: 200px; height: 50px}
 
 .sent{font-size:30px;
-	margin-top:200px;}
+	margin-top:200px;
+text-align: center;
+margin-left: 40px;}
 
 .design2 {
 text-align: center;
@@ -822,7 +824,7 @@ margin-bottom: 34px;
 	text-decoration:none;
 	position: absolute;
      margin-left:-26px;
-      bottom:-1464px;
+      bottom:-1264px;
       font-size: 15px;
       -webkit-transition: all .75s ease-out;
 	-moz-transition: all .75s ease-out;
