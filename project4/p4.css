@@ -1,4 +1,5 @@
-body {background-color: white;}
+body {background-color: white;
+font-family: sans-serif;}
 
 #container {width: 800px;
 	height: 1000px;
@@ -103,8 +104,8 @@ right:280px;}
 	margin: 50px;
 	width:300px;
 	margin: 0 auto;
-	text-align: -webkit-left;
-	margin-left: 665px;
+	text-align: -webkit-auto;
+	margin-left: inherit;
 }
 
 input[type="radio"] {
@@ -830,6 +831,7 @@ margin-bottom: 34px;
 	position: absolute;
      margin-left:-26px;
       bottom:-1264px;
+      margin-bottom: 20px;
       font-size: 15px;
       -webkit-transition: all .75s ease-out;
 	-moz-transition: all .75s ease-out;
@@ -962,4 +964,6 @@ a.menubutton3 {position: static;
 	.orderButton {
       bottom:-1100px;
      }
+
+
 
