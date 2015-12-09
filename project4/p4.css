@@ -101,6 +101,10 @@ right:280px;}
 
 #flavors {
 	margin: 50px;
+	width:300px;
+	margin: 0 auto;
+	text-align: -webkit-left;
+	margin-left: 665px;
 }
 
 input[type="radio"] {
@@ -166,7 +170,8 @@ input[type="radio"]:checked + label span {
 .design{
 font-size:50px;
 text-align: center;
-margin-left: 40px;}
+margin-left: 40px;
+margin-top: 60px;}
 
 input{width: 200px; height: 50px}
 
